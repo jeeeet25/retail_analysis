@@ -1,0 +1,12 @@
+spark = 3.3.2
+java_home = 1.8
+
+Run this to confirm what Spark is using:
+
+echo $JAVA_HOME
+It should print something like:
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home
+
+
+If it's blank or shows something like Java 17 or 24 path, then:
+export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
