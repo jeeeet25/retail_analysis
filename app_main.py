@@ -29,4 +29,5 @@ aggregated_results.show()
 
 print("end of main")
 
+print("stagged changes")
 ##/Users/jeetpatel499/.local/share/virtualenvs/retail_analysis--35TAeZf/bin/python /Users/jeetpatel499/Desktop/labs/retail_analysis/app_main.py LOCAL
